@@ -31,7 +31,7 @@
     "@angular/cli": "~6.2.4",
     "@angular/compiler-cli": "^6.1.0",
     "@angular/language-service": "^6.1.0",
-    "@applitools/eyes-storybook": "^2.7.31",
+    "@applitools/eyes-storybook": "^2.9.6",
     "@babel/core": "^7.1.2",
     "@storybook/addon-actions": "^5.1.11",
     "@storybook/addon-links": "^5.1.11",
