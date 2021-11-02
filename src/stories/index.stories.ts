@@ -27,7 +27,7 @@ storiesOf('Button', module)
     () => ({
       component: Button,
       props: {
-        text: '😀 😎 👍 💯',
+        text: '😀 😎 👍 💯 🤘',
       },
     }),{notes: 'My notes on a button with emojis'}
   )
