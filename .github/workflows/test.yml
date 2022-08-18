@@ -26,8 +26,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - run: npm ci
-
-      - run: npx eyes-storybook
+      - run: npm run build-storybook
+      - run: |
+              "npx http-server storybook-static --port 6006 --silent" \
+              "npx wait-on tcp:6006 && npx eyes-storybook -u http://localhost:6006"
         #env:
           #APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
   batch-completion-notification:
