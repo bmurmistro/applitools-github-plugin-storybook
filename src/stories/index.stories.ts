@@ -19,7 +19,7 @@ storiesOf('Button', module)
   .add('with text', () => ({
     component: Button,
     props: {
-      text: 'Hello Button',
+      text: 'Hello Button ',
     },
   }))
   .add(
